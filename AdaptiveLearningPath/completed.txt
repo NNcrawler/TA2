@@ -1,0 +1,35 @@
+pemodelan untuk course
+munclkan knowldge di user info
+munculkan course completed di user info
+menelusuri available learning path
+course besar ditandai sudah dipelajari apabila alternatenya ada yang sudah
+penelusuran berhenti sampai bertemu course yang sudah dipelajari
+fungsi weighting
+jika ada concept yang sudah dipelajari maka akan membuat weighr course berkurang
+TEST weighting DENGAN JALANKAN ALP
+    setengah bawah set concept done
+    itung kalau ngga ada bobot done
+    ketika knowledge ditambah bobo terupdate done
+    setengah keatas set concept done
+alternate pilih salah satu berdasarkan beban terpendek
+    sort alternate
+    sort alternate dari yang terendah
+    for dari sorted alternate
+        if alternate belum dipelajari ambil itu
+        break
+
+
+todo:
+
+
+
+
+
+weighting?
+weight dihitung berdasarkan waktu penyelesaian dari total konsep?
+weight digunakan untuk pemilihan alternative concept dan pemilihan course besar yang utama
+dimana dihitungnya(course)? :
+                     - setiap kali concept dipelajari update
+                     - ketika user ambil course pertama kali dan bobot course tersedia kosong
+                     - ketika course dilihat sebagai prerequisit yang tidak punya alter dan bobot
+

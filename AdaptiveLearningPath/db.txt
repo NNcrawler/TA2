@@ -1,0 +1,21 @@
+course              #untuk adaptive learning path
+    nama    :char
+    prereq  :course lain
+    alter   :course lain
+    waktu   :real
+
+userStatus          #untuk penyesuaian terhadap path
+    learning style:
+    Knowledge : concept
+    Completed   : course
+
+concept             #pemodelan untuk sistem
+    nama    :char
+
+edgeConcept         #pemodelan untuk sistem
+    dari    :concept
+    ke      :concept
+    bobot   :sesatu
+
+learning sty;e
+    nama
